@@ -1,0 +1,108 @@
+#dashboard{
+    width: 80%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 40px;
+    background-color: rgb(238, 193, 193);
+    box-shadow: 0 0 10px;
+    margin-bottom: 1px;
+}
+h1{
+    text-align: center;
+    color: rgb(156, 15, 15);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    
+}
+#inspiration{
+    margin-top: 20px;
+    padding:20px;
+    background-color: antiquewhite;
+    border-radius: 300px;
+    text-align: center;
+}
+#inspiration1 {
+    margin-top: 20px;
+    padding:20px;
+    background-color: antiquewhite;
+    border-radius: 300px;
+    text-align: center;
+}
+#inspiration2{
+    margin-top: 20px;
+    padding:20px;
+    background-color: antiquewhite;
+    border-radius: 300px;
+    text-align: center;
+}
+#inspiration3{
+    margin-top: 20px;
+    padding:20px;
+    background-color: antiquewhite;
+    border-radius: 300px;
+    text-align: center;
+}
+#inspiration4{
+    margin-top: 20px;
+    padding:20px;
+    background-color: antiquewhite;
+    border-radius: 300px;
+    text-align: center;
+}
+#inspiration5{
+    margin-top: 20px;
+    padding:20px;
+    background-color: antiquewhite;
+    border-radius: 300px;
+    text-align: center;
+    border-image-width: 30px;
+}
+#inspiration6{
+    margin-top: 20px;
+    padding:20px;
+    background-color: antiquewhite;
+    border-radius: 300px;
+    text-align: center;
+}
+button{
+    display:block;
+    margin:20px auto;
+    padding:10px 20px;
+    font-size:1em;
+    background-color: rgb(248, 117, 10);
+    color: white;
+    border:none;
+    border: radius 5px;
+    cursor:pointer;
+}
+button:hover{
+    background-color: black;
+}
+p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    
+    margin-bottom:  10px; 
+    margin-top: 10px;
+    line-height: 1.6;
+    padding-left: 20px;
+    padding-right: 20px;
+
+} 
+body{
+    background-image: url(data:image/jpeg;base64,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); 
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin:0;
+    padding: 0;
+}
+/* Existing styles... */
+
+/* Add transition for smooth content changes */
+#inspiration, #inspiration1,#inspiration2,#inspiration3,#inspiration4 {
+    transition: opacity 0.3s ease-in-out; /* Smooth transition for opacity */
+    opacity: 1; /* Default opacity */
+}
+
